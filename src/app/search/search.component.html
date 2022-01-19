@@ -1,0 +1,7 @@
+<ul class="heroes">
+  <li *ngFor="let engine of engines">
+    <a routerLink="/detail/{{engine.id}}">
+      <span class="badge">{{engine.id}}</span> {{engine.name}}
+    </a>
+  </li>
+</ul>
