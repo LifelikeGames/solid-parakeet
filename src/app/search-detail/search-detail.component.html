@@ -1,0 +1,9 @@
+<div *ngIf="engine">
+  <h2>{{engine.name | uppercase}} Search</h2>
+  <div>
+    <label for="engine-name">Search term: </label>
+    <input id="engine-name" [(ngModel)]="searchTerm" placeholder="enter text...">
+    <button (click)="onSearch()">Search</button>
+  </div>
+</div>
+<button (click)="goBack()">go back</button>

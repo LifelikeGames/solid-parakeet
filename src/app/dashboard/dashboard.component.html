@@ -1,0 +1,6 @@
+<h2>Search Engines</h2>
+<div class="engine-menu">
+  <a *ngFor="let engine of engines" routerLink="/detail/{{engine.id}}">
+    {{engine.name}}
+  </a>
+</div>
