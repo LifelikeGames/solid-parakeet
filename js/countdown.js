@@ -33,7 +33,7 @@ $(function () {
     /* =========================================
         COUNTDOWN 1
      ========================================= */
-    $('#clock').countdown('2022/02/17 19:00:00').on('update.countdown', function(event) {
+    $('#clock').countdown('2022/02/17 09:00:00').on('update.countdown', function(event) {
         var $this = $(this).html(event.strftime(''
             + '<span class="h1 font-weight-bold">%D</span> Day%!d'
             + '<span class="h1 font-weight-bold">%H</span> Hr'
